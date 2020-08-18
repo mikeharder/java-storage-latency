@@ -11,10 +11,6 @@ import com.azure.storage.blob.BlobContainerClient;
 import com.azure.storage.blob.BlobServiceClient;
 import com.azure.storage.blob.BlobServiceClientBuilder;
 
-/**
- * Hello world!
- *
- */
 public class App {
     private static final String CONTAINER_NAME = "test-" + UUID.randomUUID().toString();
     private static final byte[] CONTENT = "Hello World!".getBytes();
